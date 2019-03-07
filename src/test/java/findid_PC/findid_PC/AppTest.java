@@ -24,8 +24,9 @@ public class AppTest extends pushbullet_login {
 	}
 
 	@Test
-	public void findID() throws AWTException {
+	public void findID() throws Exception {
 		open("https://front.wemakeprice.com/user/find/id");
+		Mclick();
 
 		$(By.xpath("//span[contains(.,'확인')]")).click();
 
