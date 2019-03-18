@@ -31,7 +31,7 @@ public class AppTest extends pushbullet_login {
 		$(By.xpath("//span[contains(.,'확인')]")).click();
 
 		$(By.id("_name")).sendKeys("테스트");
-		$(By.id("_phone")).sendKeys("01043642021");
+		$(By.id("_phone")).sendKeys("01026989109");
 
 		$(By.xpath("//span[contains(.,'인증번호 발송')]")).click();
 		Pb();
